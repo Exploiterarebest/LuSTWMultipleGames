@@ -1,0 +1,211 @@
+if game.PlaceId == 9848789324 then
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	local Window = OrionLib:MakeWindow({Name = "LuSTW Ragdoll Engine Scipt Hub", HidePremium = false, IntroText = "Ragdoll Engine Detected, LuSTW Script Hub Loaded", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+	OrionLib:MakeNotification({
+		Name = "REMINDER",
+		Content = "Ragdoll Engine Detected! Make Sure Your Executor Is Level 7+",
+		Image = "rbxassetid://4483345998",
+		Time = 10
+	})
+
+	OrionLib:MakeNotification({
+		Name = "WARNING",
+		Content = "ColorPicker Is Not Working On Your Executor! Try Using Another One For Using The ColorPicker Option!",
+		Image = "rbxassetid://4483345998",
+		Time = 10
+	})
+
+		
+	local AdminTab = Window:MakeTab({
+		Name = "Admin Panels",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	
+	AdminTab:AddButton({
+		Name = "Infinite Yield",
+		Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		  end    
+	})
+	
+	AdminTab:AddButton({
+		Name = "CMD-X",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		  end    
+	})
+	
+	local PlayerTab = Window:MakeTab({
+		Name = "Player",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	
+	PlayerTab:AddToggle({
+		Name = "WalkSpeed",
+		Default = false,
+		Callback = function(Value)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+		end    
+	})
+	
+	PlayerTab:AddToggle({
+		Name = "JumpPower",
+		Default = false,
+		Callback = function(Value)
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+		end    
+	})
+
+	local Color = Window:MakeTab({
+		Name = "Color",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	Color:AddColorpicker({
+		Name = "ColorPicker",
+		Default = Color3.fromRGB(255, 0, 0),
+		Callback = function(Value)
+			ColorPicker:Set(Color3.fromRGB(255,255,255))
+		end	  
+	})
+
+elseif game.PlaceId == 621129760 then
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	local Window = OrionLib:MakeWindow({Name = "LuSTW KAT Script Hub", HidePremium = false, IntroText = "KAT Detected, LuSTW Script Hub Loaded", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+	OrionLib:MakeNotification({
+		Name = "REMINDER",
+		Content = "KAT Detected! Make Sure Your Executor Is Level 7+",
+		Image = "rbxassetid://4483345998",
+		Time = 10
+	})
+
+	local HubsTab = Window:MakeTab({
+		Name = "Hubs",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	HubsTab:AddButton({
+		Name = "VG Hub",
+		Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+		  end    
+	})
+
+	HubsTab:AddButton({
+		Name = "Owl Hub",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+		  end    
+	})
+
+	HubsTab:AddButton({
+		Name = "Dark Hub",
+		Callback = function()
+			loadstring(game:HttpGet('https://pastebin.com/raw/yCrBkPaY', true))()
+		  end    
+	})
+
+elseif game.PlaceId == 621129760 then
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	local Window = OrionLib:MakeWindow({Name = "LuSTW Arsenal Script Hub", HidePremium = false, IntroText = "Arsenal Detected, LuSTW Script Hub Loaded", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+	OrionLib:MakeNotification({
+		Name = "REMINDER",
+		Content = "Arsenal Detected! Make Sure Your Executor Is Level 7+",
+		Image = "rbxassetid://4483345998",
+		Time = 10
+	})
+
+	local HubsTab = Window:MakeTab({
+		Name = "Hubs",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	HubsTab:AddButton({
+		Name = "Owl Hub",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+		  end    
+	})
+
+	HubsTab:AddButton({
+		Name = "Dark Hub",
+		Callback = function()
+			loadstring(game:HttpGet('https://pastebin.com/raw/yCrBkPaY', true))()
+		  end    
+	})
+
+	HubsTab:AddButton({
+		Name = "VG Hub",
+		Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+		  end    
+	})
+
+elseif game.PlaceId == 6872265039 then
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	local Window = OrionLib:MakeWindow({Name = "LuSTW Arsenal Script Hub", HidePremium = false, IntroText = "Bed Wars Detected, LuSTW Script Hub Loaded", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+	OrionLib:MakeNotification({
+		Name = "REMINDER",
+		Content = "Bed Wars Detected! Make Sure Your Executor Is Level 7+",
+		Image = "rbxassetid://4483345998",
+		Time = 10
+	})
+
+	local HubsTab = Window:MakeTab({
+		Name = "Hubs",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	HubsTab:AddParagraph("Reminder","Hubs Is Still In Beta So Dont Expect Alot")
+
+	HubsTab:AddButton({
+		Name = "NTD Hub",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/rZ1v3mDZ", true))()
+		  end    
+	})
+
+	local ScriptsTab = Window:MakeTab({
+		Name = "Scripts",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	ScriptsTab:AddButton({
+		Name = "Vape V4",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+		  end    
+	})
+
+	ScriptsTab:AddButton({
+		Name = "Moonlight",
+		Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/8pmX8/moonlight.cool/main/mlobfuscated.lua'))();
+		  end    
+	})
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	end
+	OrionLib:Init()  
